@@ -134,7 +134,7 @@ bcArray = questions2.bcArray;
       if (index <= 7) {
         makeQuestionEl(index);
       } else {
-        // alert(winLogic());
+        (winLogic());
         // displayQuizAnswers();
         makeQuestionEl2();
         // // display choices for user 2 to guess
