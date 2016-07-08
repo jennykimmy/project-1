@@ -2,7 +2,7 @@ add image to github readme add link to app to github readme add link to trello t
 
 BIRTH CONTROL PICKER
 
-http://imgur.com/Qdz8OLA
+[Imgur](http://i.imgur.com/Qdz8OLA.png)
 
 TRELLO
 https://trello.com/b/VXl8UECl/birth-control-app
