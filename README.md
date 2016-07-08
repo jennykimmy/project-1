@@ -2,7 +2,7 @@ add image to github readme add link to app to github readme add link to trello t
 
 BIRTH CONTROL PICKER
 
-![bc picker](https://imgur.com/Qdz8OLA "Logo Title Text 1")
+![bc picker](http://imgur.com/Qdz8OLA "Logo Title Text 1")
 
 DESCRIPTION In this two player game, player 1 answers questions about their birth control needs. After they have finished the quiz, they hand off the game to player 2. Player 2 guesses the best birth control options for player 1 based on their answers.
 
