@@ -109,7 +109,7 @@ bcArray = questions2.bcArray;
     })
   }
 
-  // display next function
+  // display Next function
   $("#next").click(function(){
     // event listener for next button
     $("#question").fadeOut(500, function() {
@@ -119,7 +119,22 @@ bcArray = questions2.bcArray;
         makeQuestionEl(index);
       } else {
         // alert(winLogic());
+        alert(winLogic());
+        // displayQuizAnswers();
         makeQuestionEl2();
+        // // display choices for user 2 to guess
+        // // "user 2 answer"
+        // // append li with answer
+        //
+        //  // user 2
+        // $("li").click(function() {
+        //   var guess = $(this).text()
+        //   if resultsArray.indexOf(guess) != - 1 {
+        //     // win
+        //   } else {
+        //     // lose
+        //   }
+        //
       }
     })
   });
@@ -371,8 +386,31 @@ bcArray = questions2.bcArray;
     {
       resultsArray.push("IUD");
     }
+    // if (
+    //
+    //
+    //
+    //
+    //
+    //
+    // {
+    //   resultsArray.push("non-hormonal IUD");
+    // }
     return resultsArray;
   }
+
+
+  // display player 1's answers
+  // function displayQuizAnswers() {
+  //   var $quizAnswers = $("<p>");
+  //
+  //   $quizAnswers.append(answersArray);
+  //   $('body').append($quizAnswers)
+  // }
+
+
+
+
 
   // Display question for player 2
   function makeQuestionEl2() {
@@ -383,11 +421,18 @@ bcArray = questions2.bcArray;
 
     questionEl2.append("Player 1's quiz results are below. Please select the best birth control options for them." + "<br /><br />");
 
+
     for (var i = 0; i < answersArray.length; i++) {
     questionEl2.append(questions[i].question + "<br />");
     questionEl2.append(answersArray[i] + "<br />");
     }
+    // for loop
+    // {
+    // questions[i].question
+    // answersArray[i]
+    // }
 
+    // append question to div
     var question2 = questions2.question;
     questionEl2.append(question2);
     $("#container").append(questionEl2);
@@ -425,4 +470,12 @@ bcArray = questions2.bcArray;
       }
       alert("You lose");
     })
+  }
+
+  function winLogic2() {
+    if (bcArray.toString() === resultsArray.toString()) {
+      alert("You are correct!");
+    } else {
+      alert("ur wrong dummy");
+    }
   }
