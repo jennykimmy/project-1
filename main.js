@@ -11,6 +11,7 @@ var answersArray = [];
 var quiz = $("#quiz");
 var index = 0;
 
+
 var questions2 = {
   question: "What are the best birth control options for player 1?",
   bcArray: ["the pill (combination)", "mini pill", "the patch", "the implant", "Nuvaring", "Depo shot", "IUD"]
@@ -65,6 +66,21 @@ bcArray = questions2.bcArray;
   // Display first question
   function makeQuestionEl(index) {
 
+    // // loop through images
+    // var folder = "/Users/jennykim/code/wdi/project_1/images/";
+    //
+    // $.ajax({
+    //   url : folder,
+    //   success: function (data) {
+    //     $(data).find("a").attr("href", function (i, val) {
+    //         if( val.match(/\.(jpe?g|png|gif)$/) ) {
+    //             $("body").append( "<img src='"+ folder + val +"'>" );
+    //         }
+    //     });
+    //   }
+    // });
+
+
     // create question div
     var questionEl = $("<div>", {
       id: "question"
@@ -109,7 +125,7 @@ bcArray = questions2.bcArray;
     })
   }
 
-  // display Next function
+  // displayNext function
   $("#next").click(function(){
     // event listener for next button
     $("#question").fadeOut(500, function() {
