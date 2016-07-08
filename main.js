@@ -135,7 +135,6 @@ bcArray = questions2.bcArray;
         makeQuestionEl(index);
       } else {
         // alert(winLogic());
-        alert(winLogic());
         // displayQuizAnswers();
         makeQuestionEl2();
         // // display choices for user 2 to guess
