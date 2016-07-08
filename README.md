@@ -1,5 +1,3 @@
-add image to github readme add link to app to github readme add link to trello to github readme approach taken
-
 BIRTH CONTROL PICKER
 
 [Imgur](http://i.imgur.com/Qdz8OLA.png)
