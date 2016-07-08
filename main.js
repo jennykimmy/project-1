@@ -426,11 +426,3 @@ bcArray = questions2.bcArray;
       alert("You lose");
     })
   }
-
-  function winLogic2() {
-    if (bcArray.toString() === resultsArray.toString()) {
-      alert("You are correct!");
-    } else {
-      alert("ur wrong dummy");
-    }
-  }
